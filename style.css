@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.description img {
+.description .images {
   width: 100%;
 }
 .description .more-information {
@@ -118,12 +118,12 @@
 .li-list > input-todo {
   width: 226px
 }
-.delete img {
+.delete .images {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.delete .images:hover {
   transform: rotateZ(0);
 }
 
